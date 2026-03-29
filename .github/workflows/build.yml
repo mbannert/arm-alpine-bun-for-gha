@@ -44,5 +44,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/opentsi/bun-alpine-git:latest
-            ghcr.io/opentsi/bun-alpine-git:${{ steps.meta.outputs.version }}
+            ghcr.io/alpine-jellyfish/bun-alpine-git:latest
+            ghcr.io/alpine-jellyfish/bun-alpine-git:${{ steps.meta.outputs.version }}
